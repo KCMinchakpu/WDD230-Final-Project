@@ -11,3 +11,35 @@
             line-height: 1.5em;
         }
     }
+
+/* Forecast Table */
+.contentbox.forecast {
+    background-color: transparent;
+    border: none;
+    display: block;
+}
+
+.contentbox.forecast.table{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.col-head,th {
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: black;
+}
+
+table,th,td {
+    border: thin solid #333;
+    border-collapse: collapse;
+    padding: 25px 55px 30px 55px;
+}
+
+td {
+    background-color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    font-size: 19px;
+}
