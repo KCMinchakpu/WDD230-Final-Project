@@ -523,5 +523,7 @@ ul.menu li:first-child {
 /*About Us Page*/
 
 .aboutus {
-    background-color: ;
-}
+    background-color: gray;
+    height: 200px;
+    background-image: image();
+  }
