@@ -448,41 +448,80 @@ ul.menu li:first-child {
 
 /* Footer */
 
-#footer {
-    padding: 4em 0 8em 0;
-    margin-top: 30px;
-}
-
-#footer a {
-    color: inherit;
-    border-bottom-color: rgba(71, 71, 71, 0.25);
-}
-
-#footer a:hover {
-    color: #37c0fb;
-    border-bottom-color: transparent;
+.footer-column {
+    float: left;
+    width: 33.33%;
+    background-color: #212121;
+    height: 500px;
+    padding: 50px;
   }
 
-#footer .container {
-    margin-bottom: 4em;
-    }
+  .footer-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-#footer .icons {
+  @media screen and (max-width: 600px) {
+    .footer-column {
+      width: 100%;
+    }
+  }
+
+  .list-group {
+    color: #F5FFFA;
+    list-style: none;
+  }
+
+  .mbekudi {
+    color: orange;
     text-align: center;
-    margin: 0;
-    }
+    font-size: 25px;
+  }
 
-#footer .icons a {
-    color: #999;
+  .lazon {
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .social-icon {
+    color: #e0e0e0;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    margin-left: 90px;
+    margin-bottom: 20px;
+
+  }
+
+ .social-icon-link {
+    font-size: 35px;
+    color: whitesmoke;
+    margin-right: 5px;
+    text-align: center;
+    
+ }
+
+ .copyright {
+    background-color: black;
+    height: 100px;
+    padding-top: 20px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 16px;
+    margin-bottom: 0px;
+ }
+
+.attribution a:link {
+    color: whitesmoke;
+    font-size: 16px;
+    text-decoration: none;
 }
 
-#footer .icons a:hover {
-        color: #474747;
-        }
+/*About Us Page*/
 
-#footer .copyright {
-            color: #999;
-        margin-top: 1.5em;
-        text-align: center;
-        font-size: 0.9em;
-    }
+.aboutus {
+    background-color: ;
+}
