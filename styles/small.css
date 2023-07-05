@@ -259,8 +259,8 @@ ul.menu li:first-child {
 
         .banner-content {
             position: absolute; 
-            top: 120px; 
-            height: 300px;
+            top: 60px; 
+            height: 400px;
             margin-left: 100px;
             background: rgb(0, 0, 0); 
             background: rgba(0, 0, 0, 0.5); 
@@ -274,6 +274,7 @@ ul.menu li:first-child {
             font-size: 70px;
             margin-top: 20px;
             margin-bottom: 30px;
+            line-height: 60px;
           }
 
           .mbeki {
@@ -525,5 +526,7 @@ ul.menu li:first-child {
 .aboutus {
     background-color: gray;
     height: 200px;
-    background-image: image();
+    background-image: url("nature.webp");
+    text-align: center;
+    padding: 50px;
   }
