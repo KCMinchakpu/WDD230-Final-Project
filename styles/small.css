@@ -530,3 +530,22 @@ ul.menu li:first-child {
     text-align: center;
     padding: 50px;
   }
+
+  .about-article{
+    width:900px;
+    margin:30px;
+    padding:12px;
+    background:#efefef;
+    border-radius:5px;
+  }
+  .image-right {
+    background:silver;
+    width:500px;
+    height:400px;
+    border-radius:5px;
+    padding:20px;
+    color:#efefef;
+    font-size:8rem;
+    float:right;
+     margin-left:0px;
+    }  
