@@ -594,86 +594,135 @@ ul.menu li:first-child {
   
 }
 
-.cartform {
-  width: 50%;
-  margin-left: 50px;
-  max-width: 960;
-	margin-right: 10px;
-	background-color: #F5FFFA;
-	display: block;
-}
-form fieldset {
-  margin: 2rem auto;
-  border: 1px solid #444;
-  border-radius: 10px;
-  padding: .5rem 2%;
+.fresh-form,
+.results {
+  width: 980px;
+  margin: 8vh auto;
 }
 
-form legend {
-  color: #444;
-  margin: 0 1rem;
-  padding: 0 .5rem;
-font-weight: bold;
+.instructions {
+  margin-top: 0.5rem;
+  font-size: 87.5%;
 }
 
-form label.top {
+.results pre {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #F8F6F0;
+  border: 1px gray;
+  overflow-x: scroll;
+}
+
+.fresh-form form {
+  position: relative;
+  align-items: center;
+  margin-left: 200px;
+  width: 600px;
   display: block;
-  padding-top: 1rem;
-  color: #800000; 
-  font-size: .8rem;
+  padding: 1rem 0 2rem;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+  overflow: hidden;
 }
 
-form label.top input {
-  -webkit-appearance: none;
+.input-group {
+  margin-top: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.fresh-form label {
   display: block;
+  color: gray;
+  font-family: Lato, sans-serif;
+  font-size: 90%;
+  line-height: 1.125;
+}
+
+.group-label {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 90%;
+}
+
+.fresh-form label.inline {
+  display: inline-block;
+  margin-left: 0.25rem;
+}
+
+.fresh-form input,
+.fresh-form select,
+.fresh-form textarea {
+  display: block;
+  margin-top: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid lightgray;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
-  border: solid 1px #999;
-  border-radius: 4px;
-  padding: .75rem;
-  color: #555;
-  width: 100%;
-  max-width: 20rem;
-  background-color: rgba(0,0,0,0.1);
+  transition: 150ms border-color linear;
 }
 
-form label.sbs {
+.fresh-form input[type=checkbox],
+.fresh-form input[type=radio] {
+  display: inline-block;
+  width: auto;
+}
+
+.fresh-form input[type=checkbox]:not(:first-of-type),
+.fresh-form input[type=radio]:not(:first-of-type) {
+  margin-left: 1rem;
+}
+
+.fresh-form input:focus,
+.fresh-form input:active {
+  border-color: var(--color-gray-medium);
+}
+
+.fresh-form button {
   display: block;
-  padding: .75rem 0;
-  color: #555;  
-}
-form label.sbs:hover {
-background-color: white;
+  margin: 0.5rem 1rem 0;
+  padding: 0 1rem 0.125rem;
+  background-color: var(--color-gray-medium);
+  border: 0;
+  color: var(--color-lightest);
+  font-family: lato, sans-serif;
+  font-size: 100%;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  transition: 150ms all linear;
 }
 
-form input.submitBtn {
-  border: none;
-  background-color: #01201e;
+.fresh-form button:hover,
+
+.fresh-form button:focus {
+  background-color: #f87c43;
   color: white;
-  border-radius: 0.5rem;
-  padding: .75rem 1.5rem;
-  margin: 0 0 1rem 5%;
-  width: 100%;
-  max-width: 15rem;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
   cursor: pointer;
-}
+  width: 200px;
+  }
 
-form input.submitBtn:hover {
-  background-color: #800000;
-}
+  .fresh-form button:active {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  }
 
-form label.top input:required {
-  border-left: rgb(179, 23, 2) solid 6px;
-}
+  .cart-title {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom: 20px;
 
-form label.top input:required:valid {
-  border-left: green solid 6px;
-}
+  }
 
-form .info{
-	font-size: .8rem;
-}
-
-#myFruitoptions {
-  width: 100px;
-  color: #212121;
-}
+  .cart-para {
+    text-align: center;
+  }

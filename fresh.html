@@ -46,35 +46,191 @@
 <main>
 <div class="fresh-title">Fresh Organic Drink</div>
 <!-- Start Cart  -->
-<div class="row">
-    <div class="column2 join">
-        <div class="cartform">
-            <form method="get" action="thankyou.html">
-                <fieldset>
-                    <legend>Customer Information</legend>
-                    <label class="top">First Name* <input type="text" name="fname" required></label>
-                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                    <label class="top">Cell Phone* <input type="text" name="phone" placeholder="1235551234" required></label>
-                    </fieldset>  
-                <fieldset>
-                    <legend>Fruit Options for the Mix</legend>
-                    <select id="myFruitoptions">Select Fruit</select>
-
-                    
-                    <p class="info">Hold down the Ctrl (windows)/Command (Mac) button to select multiple options.</p>
-                </fieldset>
-                <input type="submit" value="Order/Make Mix" class="submitBtn">
-                <input type="hidden" id="date" name="date" value="CurrentDate"> 
-                <input type="hidden" id="time" name="time" value="CurrentTime">
-              </form>
-        </div>
+<section class="fresh-form">
+  <h1 class="cart-title">MAKE A MIX & ORDER</h1>
+  <p class="cart-para">Use this form to select 3 fruits and make a mix and order</p>
   
-    </div>
-    </main>
+<form>
+<div class="input-group">
+<input id="salutation-mr" name="salutation" type="radio" value="Mr."/>
+<label class="inline" for="salutation-mr">Mr.</label>
+      
+<input id="salutation-mrs" name="salutation" type="radio" value="Mrs."/>
+<label class="inline" for="salutation-mrs">Mrs.</label>
+      
+<input id="salutation-ms" name="salutation" type="radio" value="Ms."/>
+<label class="inline" for="salutation-ms">Ms.</label>
+</div>
 
-   
+<div class="input-group">
+<label for="name">First Name: </label>
+<input id="name" name="name" type="text"/>
+</div>
     
-</main>
+<div class="input-group">
+<label for="email">Email Address:</label>
+<input id="email" name="email" type="email"/>
+</div>
+
+<div class="input-group">
+<label for="phone">Phone Number:</label>
+<input id="phone" name="phone" type="tel"/>
+</div>
+
+    
+<div class="input-group">
+<label for="fruit">Select first fruit</label>
+<select id="fruit" name="fruit">
+<option>Select Fruit</option>
+<option>Apricot</option>
+<option>Avocado</option>
+<option>Banana</option>
+<option>Blackberry</option>
+<option>Blueberry</option>
+<option>Cherry</option>
+<option>Dragonfruit</option>
+<option>Durian</option>
+<option>Feijoa</option>
+<option>Fig</option>
+<option>Gooseberry</option>
+<option>Grape</option>
+<option>Grapes</option>
+<option>GreenApple</option>
+<option>Guava</option>
+<option>Kiwi</option>
+<option>Kiwifruit</option>
+<option>Lime</option>
+<option>Lingonberry</option>
+<option>Lychee</option>
+<option>Mango</option>
+<option>Melon</option>
+<option>Morus</option>
+<option>Orange</option>
+<option>Papaya</option>
+<option>Passionfruit</option>
+<option>Pear</option>
+<option>Persimmon</option>
+<option>Pineapple</option>
+<option>Pitahaya</option>
+<option>Plum</option>
+<option>Pomegranate</option>
+<option>Raspberry</option>
+<option>Strawberry</option>
+<option>Tangerine</option>
+<option>Tomato</option>
+<option>Watermelon</option>
+</select>
+
+<div class="input-group">
+<label for="fruit">Select second fruit</label>
+<select id="fruit" name="fruit">
+<option>Select Fruit</option>
+<option>Apricot</option>
+<option>Avocado</option>
+<option>Banana</option>
+<option>Blackberry</option>
+<option>Blueberry</option>
+<option>Cherry</option>
+<option>Dragonfruit</option>
+<option>Durian</option>
+<option>Feijoa</option>
+<option>Fig</option>
+<option>Gooseberry</option>
+<option>Grape</option>
+<option>Grapes</option>
+<option>GreenApple</option>
+<option>Guava</option>
+<option>Kiwi</option>
+<option>Kiwifruit</option>
+<option>Lime</option>
+<option>Lingonberry</option>
+<option>Lychee</option>
+<option>Mango</option>
+<option>Melon</option>
+<option>Morus</option>
+<option>Orange</option>
+<option>Papaya</option>
+<option>Passionfruit</option>
+<option>Pear</option>
+<option>Persimmon</option>
+<option>Pineapple</option>
+<option>Pitahaya</option>
+<option>Plum</option>
+<option>Pomegranate</option>
+<option>Raspberry</option>
+<option>Strawberry</option>
+<option>Tangerine</option>
+<option>Tomato</option>
+<option>Watermelon</option>
+
+</select>
+
+<div class="input-group">
+<label for="fruit">Select third fruit</label>
+<select id="fruit" name="fruit">
+<option>Select Fruit</option>
+<option>Apricot</option>
+<option>Avocado</option>
+<option>Banana</option>
+<option>Blackberry</option>
+<option>Blueberry</option>
+<option>Cherry</option>
+<option>Dragonfruit</option>
+<option>Durian</option>
+<option>Feijoa</option>
+<option>Fig</option>
+<option>Gooseberry</option>
+<option>Grape</option>
+<option>Grapes</option>
+<option>GreenApple</option>
+<option>Guava</option>
+<option>Kiwi</option>
+<option>Kiwifruit</option>
+<option>Lime</option>
+<option>Lingonberry</option>
+<option>Lychee</option>
+<option>Mango</option>
+<option>Melon</option>
+<option>Morus</option>
+<option>Orange</option>
+<option>Papaya</option>
+<option>Passionfruit</option>
+<option>Pear</option>
+<option>Persimmon</option>
+<option>Pineapple</option>
+<option>Pitahaya</option>
+<option>Plum</option>
+<option>Pomegranate</option>
+<option>Raspberry</option>
+<option>Strawberry</option>
+<option>Tangerine</option>
+<option>Tomato</option>
+<option>Watermelon</option>
+</select>
+</div>
+
+<div class="input-group">
+<label for="message">Special Instruction for Us</label>
+<textarea id="message" name="message" rows="6" cols="65"></textarea>
+</div>
+    
+<div class="input-group">
+<p class="group-label">Payment Method:</p>
+<input id="payment-online" name="payment" type="checkbox" value="online"/>
+<label class="inline" for="payment-online">Online</label>
+<input id="payment-delivery" name="payment" type="checkbox" value="delivery"/>
+<label class="inline" for="payment-delivery">OnDelivery</label>
+</div>
+<input name="secret" type="hidden" value="123456"/>
+<button type="submit">Send It!</button>
+</form>
+</section>
+
+<div class="results">
+<h2>Form Data</h2>
+<pre></pre>
+</div>
+ </main>
 <!-- Footer Begins -->
 <div class="footer-row">
     <div class="footer-column">
@@ -111,6 +267,7 @@
     <!-- JavaScripts Files -->
 <script src="scripts/main.js"></script>
 <script src="scripts/weatherapi.js"></script>
-<script defer src="scripts/lazyload.js"></script> 
+<script defer src="scripts/lazyload.js"></script>
+<script src="scripts/fruits.js"></script> 
 </body>
 </html>

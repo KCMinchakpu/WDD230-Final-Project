@@ -1,16 +1,16 @@
+function handleFormSubmit(event) {
+  event.preventDefault();
+  
+  const data = new FormData(event.target);
+  
+  const formJSON = Object.fromEntries(data.entries());
 
-$('#myFruitoptions').dynamicFruitoptions({
-    
-      url:'https://brotherblazzard.github.io/canvas-content/fruit.json'
-    
-    });
-    
-    $.getJSON(settings.url, function(result) {
-        $.each(result, function(i, value) {
-            this_obj.append('<option>' + result.something  + ' - ' + result.somethingelse + '</option>');
-            });
+  // for multi-selects, we need special handling
+  formJSON.payment = data.getAll('payment');
+  
+  const results = document.querySelector('.results pre');
+  results.innerText = JSON.stringify(formJSON, null, 2);
+}
 
-        }).fail(function() {
-            console.log('%c ERROR: ' + 'Response data from ' + settings.url + 'is not a JSON object',
-                'background: red');
-        })
+const form = document.querySelector('.fresh-form');
+form.addEventListener('submit', handleFormSubmit);
