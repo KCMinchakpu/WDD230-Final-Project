@@ -453,6 +453,10 @@ ul.menu li:first-child {
     clear: both;
   }
 
+  .ngei {
+    color: whitesmoke;
+    text-decoration: none;
+  }
   @media screen and (max-width: 600px) {
     .footer-column {
       width: 100%;
@@ -680,21 +684,18 @@ ul.menu li:first-child {
 
 .fresh-form button {
   display: block;
-  margin: 0.5rem 1rem 0;
-  padding: 0 1rem 0.125rem;
-  background-color: var(--color-gray-medium);
-  border: 0;
-  color: var(--color-lightest);
-  font-family: lato, sans-serif;
-  font-size: 100%;
-  letter-spacing: 0.05em;
-  line-height: 1.5;
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
   text-transform: uppercase;
-  transition: 150ms all linear;
+  
 }
 
 .fresh-form button:hover,
-
 .fresh-form button:focus {
   background-color: #f87c43;
   color: white;
@@ -705,15 +706,7 @@ ul.menu li:first-child {
   width: 200px;
   }
 
-  .fresh-form button:active {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 200px;
-  }
+
 
   .cart-title {
     font-size: 30px;
