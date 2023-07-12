@@ -549,7 +549,22 @@ ul.menu li:first-child {
     float:right;
      margin-left:20px;
      margin-right: 20px;
-    }  
+    } 
+    
+    .image-left {
+      background:silver;
+      width:500px;
+      height:400px;
+      border-radius:5px;
+      padding:20px;
+      color:#efefef;
+      font-size:8rem;
+      float:left;
+       margin-left:20px;
+       margin-right: 20px;
+       margin-bottom: 20px;
+      }  
+
   .about-para {
     text-align: justify;
     margin-left: 20px;
@@ -573,6 +588,7 @@ ul.menu li:first-child {
   .google-map {
     padding-bottom: 50%;
     position: relative;
+    margin-top: 50px;
 }
 
 .google-map iframe {
