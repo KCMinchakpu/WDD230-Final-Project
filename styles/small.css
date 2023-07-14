@@ -642,23 +642,16 @@ ul.menu li:first-child {
   
 }
 
-.fresh-form,
-.results {
+.fresh-form {
   width: 980px;
   margin: 8vh auto;
+  border: 2px solid #333;
+  padding-top: 30px;
 }
 
 .instructions {
   margin-top: 0.5rem;
   font-size: 87.5%;
-}
-
-.results pre {
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background: #F8F6F0;
-  border: 1px gray;
-  overflow-x: scroll;
 }
 
 .fresh-form form {
@@ -669,7 +662,6 @@ ul.menu li:first-child {
   display: block;
   padding: 1rem 0 2rem;
   border-top: 1px solid #444;
-  border-bottom: 1px solid #444;
   overflow: hidden;
 }
 
@@ -1103,4 +1095,43 @@ p:last-child {
 
 .sources {
   margin-left: 100px;
+}
+
+/* Card */
+
+.card-column {
+  float: right;
+  width: 50%;
+  padding: 10px 10px;
+  margin-top: 50px;
+  margin-right: 100px;
+  border: 2px solid #333;
+}
+
+.card-row {
+  margin: 0 -5px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 200px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .card-column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
 }
