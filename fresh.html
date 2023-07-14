@@ -9,10 +9,14 @@
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
     <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Website Stylesheet -->
+    
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/small.css" media="screen">
     <link rel="stylesheet" type="text/css" href="styles/medium.css" media="screen">
@@ -52,10 +56,10 @@
   
 <form>
 <div class="input-group">
-<input id="salutation-mr" name="salutation" type="radio" value="Mr."/>
+<input id="salutation-mr" name="salutation" id="salutation" type="radio" value="Mr."/>
 <label class="inline" for="salutation-mr">Mr.</label>
       
-<input id="salutation-mrs" name="salutation" type="radio" value="Mrs."/>
+<input id="salutation-mrs" name="salutation" id="salutation" type="radio" value="Mrs."/>
 <label class="inline" for="salutation-mrs">Mrs.</label>
       
 <input id="salutation-ms" name="salutation" type="radio" value="Ms."/>
@@ -79,133 +83,21 @@
 
     
 <div class="input-group">
-<label for="fruit">Select first fruit</label>
-<select id="fruit" name="fruit">
+<label for="fruit1">Select first fruit</label>
+<select id="fruit1" name="fruit1" class="fruitSelect">
 <option>Select Fruit</option>
-<option>Apricot</option>
-<option>Avocado</option>
-<option>Banana</option>
-<option>Blackberry</option>
-<option>Blueberry</option>
-<option>Cherry</option>
-<option>Dragonfruit</option>
-<option>Durian</option>
-<option>Feijoa</option>
-<option>Fig</option>
-<option>Gooseberry</option>
-<option>Grape</option>
-<option>Grapes</option>
-<option>GreenApple</option>
-<option>Guava</option>
-<option>Kiwi</option>
-<option>Kiwifruit</option>
-<option>Lime</option>
-<option>Lingonberry</option>
-<option>Lychee</option>
-<option>Mango</option>
-<option>Melon</option>
-<option>Morus</option>
-<option>Orange</option>
-<option>Papaya</option>
-<option>Passionfruit</option>
-<option>Pear</option>
-<option>Persimmon</option>
-<option>Pineapple</option>
-<option>Pitahaya</option>
-<option>Plum</option>
-<option>Pomegranate</option>
-<option>Raspberry</option>
-<option>Strawberry</option>
-<option>Tangerine</option>
-<option>Tomato</option>
-<option>Watermelon</option>
 </select>
-
+</div>
 <div class="input-group">
-<label for="fruit">Select second fruit</label>
-<select id="fruit" name="fruit">
+<label for="fruit2">Select second fruit</label>
+<select id="fruit2" name="fruit2" class="fruitSelect">
 <option>Select Fruit</option>
-<option>Apricot</option>
-<option>Avocado</option>
-<option>Banana</option>
-<option>Blackberry</option>
-<option>Blueberry</option>
-<option>Cherry</option>
-<option>Dragonfruit</option>
-<option>Durian</option>
-<option>Feijoa</option>
-<option>Fig</option>
-<option>Gooseberry</option>
-<option>Grape</option>
-<option>Grapes</option>
-<option>GreenApple</option>
-<option>Guava</option>
-<option>Kiwi</option>
-<option>Kiwifruit</option>
-<option>Lime</option>
-<option>Lingonberry</option>
-<option>Lychee</option>
-<option>Mango</option>
-<option>Melon</option>
-<option>Morus</option>
-<option>Orange</option>
-<option>Papaya</option>
-<option>Passionfruit</option>
-<option>Pear</option>
-<option>Persimmon</option>
-<option>Pineapple</option>
-<option>Pitahaya</option>
-<option>Plum</option>
-<option>Pomegranate</option>
-<option>Raspberry</option>
-<option>Strawberry</option>
-<option>Tangerine</option>
-<option>Tomato</option>
-<option>Watermelon</option>
-
 </select>
-
+</div>
 <div class="input-group">
-<label for="fruit">Select third fruit</label>
-<select id="fruit" name="fruit">
+<label for="fruit3">Select third fruit</label>
+<select id="fruit3" name="fruit3" class="fruitSelect">
 <option>Select Fruit</option>
-<option>Apricot</option>
-<option>Avocado</option>
-<option>Banana</option>
-<option>Blackberry</option>
-<option>Blueberry</option>
-<option>Cherry</option>
-<option>Dragonfruit</option>
-<option>Durian</option>
-<option>Feijoa</option>
-<option>Fig</option>
-<option>Gooseberry</option>
-<option>Grape</option>
-<option>Grapes</option>
-<option>GreenApple</option>
-<option>Guava</option>
-<option>Kiwi</option>
-<option>Kiwifruit</option>
-<option>Lime</option>
-<option>Lingonberry</option>
-<option>Lychee</option>
-<option>Mango</option>
-<option>Melon</option>
-<option>Morus</option>
-<option>Orange</option>
-<option>Papaya</option>
-<option>Passionfruit</option>
-<option>Pear</option>
-<option>Persimmon</option>
-<option>Pineapple</option>
-<option>Pitahaya</option>
-<option>Plum</option>
-<option>Pomegranate</option>
-<option>Raspberry</option>
-<option>Strawberry</option>
-<option>Tangerine</option>
-<option>Tomato</option>
-<option>Watermelon</option>
 </select>
 </div>
 
@@ -213,58 +105,66 @@
 <label for="message">Special Instruction for Us</label>
 <textarea id="message" name="message" rows="6" cols="65"></textarea>
 </div>
-    
-<div class="input-group">
-<p class="group-label">Payment Method:</p>
-<input id="payment-online" name="payment" type="checkbox" value="online"/>
-<label class="inline" for="payment-online">Online</label>
-<input id="payment-delivery" name="payment" type="checkbox" value="delivery"/>
-<label class="inline" for="payment-delivery">OnDelivery</label>
-</div>
-<input name="secret" type="hidden" value="123456"/>
-<button type="submit">Send It!</button>
+ <button type="button" id="btnSubmit">Send It!</button>
 </form>
 </section>
 
 <div class="results">
-<h2>Form Data</h2>
-<pre></pre>
-</div>
- </main>
+
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Form Data</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body" id="divResult">
+        <div>Name: </div>
+      </div>
+      
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+      </div>
+  </main>
 <!-- Footer Begins -->
 <div class="footer-row">
-    <div class="footer-column">
-     <h5 class="mbekudi">Opening Hours</h5>
-     <ul class="list-group">
-       <li class="list-group-item">Sunday : Closed</li>
-       <li class="list-group-item">Monday - Firday: 8:00 AM - 3:30 PM</li>
-       <li class="list-group-item">Saturday: 10:30 AM - 5:30 PM</li>
-  </ul> 
+  <div class="footer-column">
+   <h5 class="mbekudi">Opening Hours</h5>
+   <ul class="list-group">
+     <li class="lazon">Sunday : Closed</li>
+     <li class="lazon">Monday - Firday: 8:00 AM - 3:30 PM</li>
+     <li class="lazon">Saturday: 10:30 AM - 5:30 PM</li>
+</ul> 
+</div>
+  <div class="footer-column">
+  <h5 class="mbekudi">Our Shop</h5>
+  <p class="lazon"><a class="ngei" href="#">info@bountiful.com</a><p>
+  <p class="lazon">123 Bountiful Avenue, <br> Carlsbad, CA 92123</p>
   </div>
-    <div class="footer-column">
-    <h5 class="mbekudi">Our Shop</h5>
-    <p class="lazon"><a class="ngei" href="#">info@bountiful.com</a><p>
-    <p class="lazon">123 Bountiful Avenue, <br> Carlsbad, CA 92123</p>
-    </div>
-    <div class="footer-column">
-      <h5 class="mbekudi mbegi">Socials</h5>
-    <ul class="social-icon">
-    <li><a href="#" class="social-icon-link bi-facebook"></a></li>
-    <li><a href="#" class="social-icon-link bi-twitter"></a></li>
-    <li><a href="#" class="social-icon-link bi-instagram"></a></li>
-    <li><a href="#" class="social-icon-link bi-youtube"></a></li>
-    </ul>
-    </div>
+  <div class="footer-column">
+    <h5 class="mbekudi mbegi">Socials</h5>
+  <ul class="social-icon">
+  <li><a href="#" class="social-icon-link bi-facebook"></a></li>
+  <li><a href="#" class="social-icon-link bi-twitter"></a></li>
+  <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+  <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+  </ul>
   </div>
-  <div class="copyright">
-    <p class="copyright-text">&copy; 2023</span> Bountiful Foods | Kevin Cross Minchakpu | WDD230 Final Project | <span>Last Modified on: <span id="year"></span></p>
-    <p class="attribution"><a href="attribution.html">Credits & Attribution</a></p>
-    </div>
-    
-    </footer>
-    <!-- Footer Ends -->
-
-    <!-- JavaScripts Files -->
+</div>
+<div class="copyright">
+  <p class="copyright-text">&copy; 2023 Bountiful Foods | Kevin Cross Minchakpu | WDD230 Final Project | <span>Last Modified on: <span id="year"></span></p>
+  <p><a class="attribution-main" href="attribution.html">Credits & Attribution</a></p>
+  </div>
+  
+  </footer>
+  <!-- Footer Ends -->
+<!-- JavaScripts Files -->
 <script src="scripts/main.js"></script>
 <script src="scripts/weatherapi.js"></script>
 <script defer src="scripts/lazyload.js"></script>

@@ -347,6 +347,12 @@ ul.menu li:first-child {
     font-size: 40px;
 }
 
+.welcome2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .button-big {
     background-color: #555555;
     padding: 16px;
@@ -521,10 +527,20 @@ ul.menu li:first-child {
     margin-bottom: 0px;
  }
 
-.attribution a:link {
-    color: whitesmoke;
-    font-size: 16px;
-    text-decoration: none;
+ .attribution-main {
+  color: orange;
+  text-decoration: none;
+ }
+
+ .attribution-main:hover {
+  color: whitesmoke;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.copyright-text {
+  color: whitesmoke;
+  margin-bottom: 0px;
 }
 
 /*About Us Page*/
@@ -733,8 +749,6 @@ ul.menu li:first-child {
   cursor: pointer;
   width: 200px;
   }
-
-
 
   .cart-title {
     font-size: 30px;
@@ -1039,3 +1053,54 @@ p:last-child {
   margin: 0;
 }
 
+.why {
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.modal-header {
+  background-color: #212121;
+  color: whitesmoke;
+}
+.modal-title {
+  text-align: center;
+  font-size: 25px;
+  
+}
+
+.modal-footer {
+  background-color: #212121;
+}
+
+.credit {
+  text-align: center;
+  color: whitesmoke;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.attribution2 {
+  background-color: #033E3E;
+  height: 100px;
+  color: #f1f1f1;
+  font-size: 29px;
+  padding-top: 20px;
+  text-align: center;margin-bottom: 20px;
+}
+
+.vengei {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.creative-commons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sources {
+  margin-left: 100px;
+}
