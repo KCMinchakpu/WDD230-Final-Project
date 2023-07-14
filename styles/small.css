@@ -49,6 +49,12 @@ html {
 
 body {
     background: #f7f7f7;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+    line-height: 1.8;
+    overflow-x: hidden;
 }
 
  body, input, select, textarea {
@@ -276,6 +282,10 @@ ul.menu li:first-child {
             margin-bottom: 20px;
           }
 
+          .tachi {
+            color: whitesmoke;
+            font-family: Arial, Helvetica, sans-serif;
+          }
 /* Carlsbad Summary */
 
 #carlsbad-banner {
@@ -915,3 +925,117 @@ section {
     width: 100%;
   }
 }
+
+/* Featured */
+
+.orange-text {
+  color: #F28123;
+}
+
+
+.blah {
+	-ms-flex:0 0 58.333333%;
+	flex:0 0 58.333333%;
+	max-width:58.333333%
+}
+
+.nzomeh {
+  padding-bottom:1rem!;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin: 0 0 1.25rem 0;
+  color: #051922;
+}
+
+.banmada{
+	-ms-flex:0 0 50%;
+	flex:0 0 50%;
+	max-width:50%
+}
+
+.gwanje {
+	-ms-flex:0 0 50%;
+	flex:0 0 50%;
+	max-width:50%
+}
+
+.gburchu {
+margin-bottom:1.5rem!important
+}
+
+.gburje {
+margin-bottom:3rem!important
+}
+
+.ngah {
+	display:-ms-flexbox!important;
+	display:flex!important
+}
+
+.feature-bg {
+  position: relative;
+  margin: 150px 50px;
+}
+
+.feature-bg:after {
+  background-image: url(../img/feature-bg.jpg);
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  content: "";
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 5px;
+  -webkit-box-shadow: 0 0 20px #cacaca;
+  box-shadow: 0 0 20px #cacaca;
+  border-bottom-left-radius: 5px;
+}
+
+
+.list-box {
+  overflow: hidden;
+  letter-spacing: 0.5px;
+}
+
+.list-box .about-content h3 {
+  display: block;
+  line-height: 22px;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.list-box .about-content p {
+  margin-bottom: 0px;
+  opacity: 0.75;
+}
+
+.list-box .list-icon i {
+  display: block;
+  font-size: 18px;
+  margin-right: 15px;
+  color: #F28123;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  line-height: 60px;
+  border: 2px #F28123 dotted;
+  border-radius: 999px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.1px;
+  line-height: 1.8;
+  color: #051922;
+  margin: 0 0 1.25rem 0;
+}
+
+p:last-child {
+  margin: 0;
+}
+
