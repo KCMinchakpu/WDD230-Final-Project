@@ -185,5 +185,14 @@ td {
     text-align: center;
 }
 
+/* Tablet Layout: 768px. */
 
+.featured-box {
+    padding: 30px;
+}
 
+.featured-section {
+    padding: 100px 0;
+}
+
+@media (min-width:768px){.fetured-container{max-width:720px}}
