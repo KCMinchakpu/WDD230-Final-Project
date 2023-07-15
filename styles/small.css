@@ -1232,3 +1232,8 @@ p:last-child {
 .team {
   width: 100%;
 }
+
+.team-member {
+  text-align: center;
+  background-color: #212121;
+}
