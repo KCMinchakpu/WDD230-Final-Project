@@ -1138,45 +1138,6 @@ p:last-child {
   margin-left: 100px;
 }
 
-/* Card */
-
-.card-column {
-  float: right;
-  width: 50%;
-  padding: 10px 10px;
-  margin-top: 50px;
-  margin-right: 100px;
-  border: 2px solid #333;
-}
-
-.card-row {
-  margin: 0 -5px;
-
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-  height: 200px;
-}
-
-
-@media screen and (max-width: 600px) {
-  .card-column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-
 .why {
   font-weight: bold;
 }
@@ -1196,12 +1157,64 @@ p:last-child {
   margin-top: 150px;
 }
 
+@media only screen and (max-width: 767.96px) {
+  .bature {
+    margin-top: 100px;
+  }
+}
+
+.section-title h3 {
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.section-title h3:after {
+  position: absolute;
+  content: '';
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 50px;
+  height: 2px;
+  background-color: #F28123;
+  margin: 0 auto;
+}
+
+.section-title p {
+  font-size: 18px;
+  width: 530px;
+  margin: 0 auto;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.8;
+}
+
+.section-title {
+  margin-bottom: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.kumatu {
+  -ms-flex:0 0 66.666667%;
+  flex:0 0 66.666667%;
+  max-width:66.666667%
+}
+
+.gila {
+  margin-left:16.666667%;
+}
+
 .team-column {
   float: left;
   width: 33.3%;
+  margin-top: 30px;
   margin-bottom: 16px;
   padding: 0 8px;
-  
 }
 
 @media screen and (max-width: 650px) {
@@ -1211,29 +1224,44 @@ p:last-child {
   }
 }
 
-.team-card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.team-container {
-  padding: 0 16px;
-}
-
-.team-container::after, .team-row::after {
+.team-row::after {
   content: "";
   clear: both;
   display: table;
 }
 
+.team-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
 .title {
   color: grey;
+  font-size: 18px;
 }
 
-.team {
-  width: 100%;
-}
-
-.team-member {
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
   text-align: center;
-  background-color: #212121;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
