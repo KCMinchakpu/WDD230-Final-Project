@@ -1266,3 +1266,26 @@ button:hover, a:hover {
   opacity: 0.7;
 }
 
+/* Cards */
+
+.index-card {
+  box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  }
+
+  .index-panel {
+    padding: 16px;
+    margin-top:16px;
+    margin-bottom:16px;
+    width: 400px;
+    margin-left: 600px;
+    height: 200px;
+    border: 2px solid #1d2b36;
+  
+    }
+
+    .index-p {
+      font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      border-bottom: 2px solid #1d2b36;
+      text-align: center;
+    }
