@@ -530,6 +530,7 @@ ul.menu li:first-child {
  .attribution-main {
   color: orange;
   text-decoration: none;
+  font-size: 15px;
  }
 
  .attribution-main:hover {
