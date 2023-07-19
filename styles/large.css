@@ -10,9 +10,9 @@
             font-size: 13pt;
             line-height: 1.5em;
         }
-    }
 
-/* Forecast Table */
+    
+        /* Forecast Table */
 .contentbox.forecast {
     background-color: transparent;
     border: none;
@@ -43,6 +43,14 @@ td {
     text-align: center;
     font-size: 19px;
 }
+
+.copyright {
+    padding: 10px;
+    height: 50%;
+}
+    }
+
+
 
 @media (min-width:992px){.container{max-width:960px}}
 @media (min-width:1200px){.container{max-width:1140px}}
