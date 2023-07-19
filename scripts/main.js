@@ -52,3 +52,4 @@ else {
         loadImages(img);
     });
 };
+
