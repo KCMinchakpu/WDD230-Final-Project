@@ -1334,3 +1334,22 @@ button:hover, a:hover {
     }
 
    
+    #drinks {
+      padding-top: 10px;
+      text-align: center;
+      
+  }
+  #drinks h2 {
+      position: absolute;
+      font-size: 1.5rem;
+      left: 0;
+      right: 0;
+      top: 2rem;
+      bottom: 0;
+      margin: auto;
+  }
+  .drink-title {
+      background-color: white;
+      padding: .2rem;
+      line-height: 2rem;
+  }
