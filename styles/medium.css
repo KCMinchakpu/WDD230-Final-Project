@@ -16,4 +16,21 @@
     nav ul li a {
         border: none;
     }
+
+    #banner {
+        height: 38em;
+        text-align: center;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #banner img {
+        width: 50%;
+      }
+
+      
+
+    
+    }
 }

@@ -39,7 +39,6 @@ table,th,td {
 
 td {
     background-color: white;
-    font-size: 0.8rem;
     text-align: center;
     font-size: 19px;
 }
@@ -48,9 +47,103 @@ td {
     padding: 10px;
     height: 50%;
 }
+    
+
+}
+
+@media screen and (max-width: 1680px) {
+        .container {
+        width: 1200px;
     }
 
+}
 
+@media screen and (max-width: 1280px) {
+    .container {
+        width: 960px;
+    }
 
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 95%;
+    }
+
+}
+
+@media screen and (max-width: 840px) {
+    .container {
+        width: 95%;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+    .container {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+    #banner header .button {
+        vertical-align: middle;
+        margin-left: 1em;
+        background-color: #644503;
+        padding: 20px;
+        color: #fff;
+        text-decoration:  none;
+    margin-top: 10px;
+    
+}
+#banner header {
+    position: absolute;
+    bottom: 10;
+    left: 10;
+    width: 100%;
+    background-color: #212121;
+    color: #fff;
+    padding: 1.5em 0;
+    border: 1px solid #fff;
+    margin-bottom: -100px;
+    height: 150px;
+}
+
+#banner header h2 {
+    display: inline-block;
+    margin: 2px;
+    font-size: 1.25em;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner header h2 em {
+        opacity: 0.75;
+    }
+
+    .banner-content {
+        position: absolute; 
+        top: 50px; 
+        height: 400px;
+        margin-left: 0;
+        background: rgb(0, 0, 0); 
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1; 
+        width: 100%; 
+        padding: 20px; 
+      }
+
+  .banner-title {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        line-height: 60px;
+      }
+}
 @media (min-width:992px){.container{max-width:960px}}
 @media (min-width:1200px){.container{max-width:1140px}}
