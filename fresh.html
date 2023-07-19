@@ -51,86 +51,40 @@
 <main>
 <div class="fresh-title">Fresh Organic Drink</div>
 <!-- Start Cart  -->
-<section class="fresh-form">
-  <h1 class="cart-title">MAKE A MIX & ORDER</h1>
-  <p class="cart-para">Use this form to select 3 fruits and make a mix and order</p>
+<div class="fresh-main">
+<h1 class="cart-title">Make Your Fruit Mix</h1>
+<p class="cart-para"> Use this form to select 3 fruits for your mix</p>
+  <form method="get">
+  <fieldset>
+  <legend>Your info</legend>
+  <label class="top"><span class="text">First Name*</span><input type="text" name="fname" id="fname" required></label>
+  <label class="top"><span class="text">Email*</span><input type="email" name="email" id="email" placeholder="someone@example.com" required></label>
+  <label class="top"><span class="text">Phone Number*</span><input type="tel" name="phone" id="phone" required></label>
+  </fieldset>
   
-<form>
-<div class="input-group">
-<input id="salutation-mr" name="salutation" id="salutation" type="radio" value="Mr."/>
-<label class="inline" for="salutation-mr">Mr.</label>
-      
-<input id="salutation-mrs" name="salutation" id="salutation" type="radio" value="Mrs."/>
-<label class="inline" for="salutation-mrs">Mrs.</label>
-      
-<input id="salutation-ms" name="salutation" type="radio" value="Ms."/>
-<label class="inline" for="salutation-ms">Ms.</label>
-</div>
+  <fieldset>
+  <legend>Your drink!</legend>
+  <p><span class="ingredient-text">Select any 3 fruits for your drink!</span></p>
+  <div class="ingredients">
+  <select name="fruit1" id="ingredientList1">
+  <option value="">Ingredient 1</option>
+  </select>
+  <select name="fruit2" id="ingredientList2">
+  <option value="">Ingredient 2</option>
+  </select>
+  <select name="fruit3" id="ingredientList3">
+  <option value="">Ingredient 3</option>
+  </select>
+  <label class="top"><span class="ingredient-text">Leave an Instruction for Us:</span><textarea name="instructions" id="instructions" cols="30" rows="7" maxlength="25"></textarea></label>
+  </div>
+  </fieldset>
+  
+  <input type="submit" value="Make my Mix!" class="submitBtn" name="submitButton">
+  </form>
+  </div>
+  
 
-<div class="input-group">
-<label for="name">First Name: </label>
-<input id="name" name="name" type="text"/>
-</div>
-    
-<div class="input-group">
-<label for="email">Email Address:</label>
-<input id="email" name="email" type="email"/>
-</div>
-
-<div class="input-group">
-<label for="phone">Phone Number:</label>
-<input id="phone" name="phone" type="tel"/>
-</div>
-
-    
-<div class="input-group">
-<label for="fruit1">Select first fruit</label>
-<select id="fruit1" name="fruit1" class="fruitSelect">
-<option>Select Fruit</option>
-</select>
-</div>
-<div class="input-group">
-<label for="fruit2">Select second fruit</label>
-<select id="fruit2" name="fruit2" class="fruitSelect">
-<option>Select Fruit</option>
-</select>
-</div>
-<div class="input-group">
-<label for="fruit3">Select third fruit</label>
-<select id="fruit3" name="fruit3" class="fruitSelect">
-<option>Select Fruit</option>
-</select>
-</div>
-
-<div class="input-group">
-<label for="message">Special Instruction for Us</label>
-<textarea id="message" name="message" rows="6" cols="65"></textarea>
-</div>
- <button type="button" id="btnSubmit">Send It!</button>
-</form>
-</section>
-
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-    
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Form Data</h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-      
-      <!-- Modal body -->
-      <div class="modal-body" id="divResult">
-        <div>Name: </div>
-      </div>
-      
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-      </div>
-      </div>
-  </main>
+</main>
 <!-- Footer Begins -->
 <div class="footer-row">
   <div class="footer-column">
