@@ -1353,3 +1353,202 @@ button:hover, a:hover {
       padding: .2rem;
       line-height: 2rem;
   }
+
+  /*Responsive*/
+
+  @media screen and (max-width: 480px) {
+
+    /* Banner */
+    
+    #banner {
+      height: 20em;
+    }
+    
+    #banner header {
+      padding: 20px;
+    }
+    
+    /* Wrapper */
+    
+    .wrapper {
+    padding: 2em 20px 1px 20px;
+          }
+    
+    /* CTA */
+    
+    #cta {
+    padding: 20px;
+    }
+    
+    /* Footer */
+    
+    #footer {
+    padding: 2em 20px;
+    text-align: left;
+    }
+    
+      }
+
+  /* Wide */
+
+	@media screen and (max-width: 1680px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 14pt;
+				line-height: 1.5em;
+			}
+
+		/* Banner */
+
+			#banner {
+				height: 24em;
+			}
+
+	}
+
+/* Normal */
+
+	@media screen and (max-width: 1280px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 13pt;
+				line-height: 1.5em;
+			}
+
+				
+		/* Header */
+
+			#header {
+				padding: 2em 0 0 0;
+			}
+
+				#header h1 {
+					padding: 0 0 1.75em 0;
+				}
+
+		/* Banner */
+
+			#banner {
+				height: 20em;
+			}
+
+		/* Wrapper */
+
+			.wrapper {
+				padding: 3em 0 1em 0;
+			}
+
+			/* Footer */
+
+			#footer {
+				padding: 3em 0 3em 0;
+			}
+
+				#footer .container {
+					margin-bottom: 1em;
+				}
+
+	}
+
+/* Narrow */
+
+	@media screen and (max-width: 980px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 12pt;
+				line-height: 1.5em;
+			}
+
+	}
+
+/* Narrower */
+
+	#navPanel, #titleBar {
+		display: none;
+	}
+
+	@media screen and (max-width: 840px) {
+
+		
+
+			html, body {
+				overflow-x: hidden;
+			}
+
+			body, input, select, textarea {
+				font-size: 13pt;
+			}
+
+			h1, h2, h3, h4, h5, h6 {
+				margin-bottom: 0.5em;
+			}
+
+			header p {
+				margin-top: -0.75em;
+			}
+
+			header.major {
+				text-align: center;
+				margin: 0 0 2em 0;
+			}
+
+				header.major h2 {
+					font-size: 1.75em;
+				}
+
+				header.major p {
+					top: -0.25em;
+					font-size: 1.25em;
+				}
+
+				/* Header */
+
+			#header {
+				display: none;
+			}
+
+		/* Banner */
+
+			#banner {
+				height: 20em;
+			}
+
+				#banner header h2 {
+					display: block;
+				}
+
+				#banner header .button {
+					margin: 1em 0 0 0;
+				}
+
+				/* Footer */
+
+			#footer {
+				text-align: center;
+			}
+
+				#footer .container {
+					margin-bottom: 4em;
+				}
+
+				#footer form .actions {
+					-moz-justify-content: center;
+					-webkit-justify-content: center;
+					-ms-justify-content: center;
+					justify-content: center;
+					width: 100%;
+					margin-left: 0;
+				}
+
+					#footer form .actions li:first-child {
+						padding-left: 0;
+					}
+        }
+
+        
