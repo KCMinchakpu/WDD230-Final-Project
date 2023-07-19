@@ -191,7 +191,7 @@ ul.menu li:first-child {
         left: 50%;
         margin-left: -0.375em;
         background-color: #644503;
-        background-image: url("images/bg01.png");
+        
             }
     
     #nav > ul > li.current a {
@@ -231,7 +231,7 @@ ul.menu li:first-child {
         color: #fff;
         padding: 1.5em 0;
         border: 1px solid #fff;
-        margin-bottom: 0px;
+        margin-bottom: -50px;
     }
 
     #banner header h2 {
@@ -1551,4 +1551,4 @@ button:hover, a:hover {
 					}
         }
 
-        
+        .cta
