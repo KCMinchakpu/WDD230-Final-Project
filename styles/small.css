@@ -231,7 +231,7 @@ ul.menu li:first-child {
         color: #fff;
         padding: 1.5em 0;
         border: 1px solid #fff;
-        margin-bottom: -50px;
+        margin-bottom: -100px;
     }
 
     #banner header h2 {
@@ -258,7 +258,7 @@ ul.menu li:first-child {
 
     .banner-content {
             position: absolute; 
-            top: 60px; 
+            top: 50px; 
             height: 400px;
             margin-left: 100px;
             background: rgb(0, 0, 0); 
@@ -1551,4 +1551,58 @@ button:hover, a:hover {
 					}
         }
 
-        .cta
+        /* Container */
+
+	.container {
+		margin: 0 auto;
+		max-width: 100%;
+		width: 1400px;
+	}
+
+		@media screen and (max-width: 1680px) {
+
+			.container {
+				width: 1200px;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			.container {
+				width: 960px;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.container {
+				width: 95%;
+			}
+
+		}
+
+		@media screen and (max-width: 840px) {
+
+			.container {
+				width: 95%;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.container {
+				width: 90%;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.container {
+				width: 100%;
+			}
+
+		}
