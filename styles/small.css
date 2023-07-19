@@ -29,7 +29,7 @@ section, summary, time, mark, audio, video {
 
  .logo {
     margin-bottom: 20px;
-    margin-left: 150px;
+    margin-left: 250px;
 }
 
 article, aside, details, figcaption, figure,
@@ -75,7 +75,7 @@ body {
 
 .header-right {
         float: right;
-        padding-right: 50px;
+        padding-right: 150px;
     }
         
 /* Social Media Icons */
@@ -234,7 +234,7 @@ ul.menu li:first-child {
         margin-bottom: 0px;
     }
 
-        #banner header h2 {
+    #banner header h2 {
             display: inline-block;
             margin: 0;
             font-size: 1.25em;
@@ -242,12 +242,12 @@ ul.menu li:first-child {
             font-family: Arial, Helvetica, sans-serif;
         }
 
-            #banner header h2 em {
+    #banner header h2 em {
                 opacity: 0.75;
             }
 
             
-        #banner header .button {
+    #banner header .button {
             vertical-align: middle;
             margin-left: 1em;
             background-color: #644503;
@@ -256,7 +256,7 @@ ul.menu li:first-child {
             text-decoration:  none;
         }
 
-        .banner-content {
+    .banner-content {
             position: absolute; 
             top: 60px; 
             height: 400px;
@@ -268,7 +268,7 @@ ul.menu li:first-child {
             padding: 20px; 
           }
 
-          .banner-title {
+      .banner-title {
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-size: 70px;
             margin-top: 20px;
@@ -276,13 +276,13 @@ ul.menu li:first-child {
             line-height: 60px;
           }
 
-          .mbeki {
+      .mbeki {
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-size: 40px;
             margin-bottom: 20px;
-          }
+      }
 
-          .tachi {
+      .tachi {
             color: whitesmoke;
             font-family: Arial, Helvetica, sans-serif;
           }
