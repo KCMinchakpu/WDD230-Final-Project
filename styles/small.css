@@ -377,10 +377,21 @@ ul.menu li:first-child {
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .weather-column {
-    width: 100%;
+    width: 95%;
+    margin-left: 10px;
   }
+
+  .emily {
+    padding: 5px;
+    height: 40px;
+    background-color: darkslategray;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+   }
 }
 .esther{
   box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
@@ -438,13 +449,6 @@ ul.menu li:first-child {
     /* Forecast Table */
 .contentbox.forecast {
 	display: none;
-}
-
-.carlsbad-map {
-    float: right;
-    margin-right: 10px;
-    margin-left: 0px;
-    margin-bottom: 0px;
 }
 
 /* Footer */
@@ -1699,4 +1703,127 @@ button:hover, a:hover {
     text-align: center;
   }
 
+  #banner img {
+    width: 100%;
   }
+
+  #banner {
+    height: 48em;
+    text-align: center;
+    position: relative;
+}
+
+#banner header h2 {
+    display: inline-block;
+    margin: 0;
+    font-size: 1.25em;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+        }
+
+    #banner header h2 em {
+                opacity: 0.75;
+            }
+ .banner-content {
+      
+      height: 400px;
+      margin-left: 10px;
+      background: rgb(0, 0, 0); 
+      background: rgba(0, 0, 0, 0.5); 
+      color: #f1f1f1; 
+      width: 100%; 
+      
+          }
+  .banner-title {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 30px;
+      
+      
+    }
+
+    .mbeki {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 20px;
+      margin-top: 0px;
+     
+}
+
+#carlsbad-banner {
+  display: flex;
+  flex-direction: column; 
+ margin-top: 0px;
+ text-align: justify;
+}
+
+#carlsbad-bannerr h1 {
+  margin-top: 10px;
+   
+}
+
+.welcome {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  line-height: 35px;
+}
+
+#carlsbad-banner .image {
+  display: flex;
+  margin-left: 10px;
+  width: 50%; 
+}
+
+#carlsbad-banner .image img {
+  height: 300px;
+  width: 300px; 
+  margin-top: 30px;
+}
+
+.eleazar{
+  padding: 6px;
+  height: 50px;
+  background-color: darkslategray;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 20px;
+}
+
+.epiphany {
+ height: 400px;
+  background-color: #333;
+}
+
+.caption {
+  color: orange;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 25px;
+  margin-top: 10px
+}
+
+.credit {
+  text-align: center;
+  color: whitesmoke;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.index-card {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: #051922;
+  width: 400px;
+  color: whitesmoke;
+  }
+
+  .index-panel {
+    padding: 16px;
+    margin-top:0px;
+    margin-bottom:16px;
+    width: 400px;
+    margin-left: 10px;
+    height: 200px;
+    border: 2px solid #1d2b36;
+  
+    }
+}

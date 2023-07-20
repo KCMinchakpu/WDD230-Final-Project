@@ -143,7 +143,7 @@
 }
 
 .col-head,th {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1rem;
     background-color: orange;
 }
@@ -151,7 +151,8 @@
 table,th,td {
     border: thin solid #333;
     border-collapse: collapse;
-    padding: 20px;
+    padding: 10px;
+    width: 300px;
 }
 
 td {
