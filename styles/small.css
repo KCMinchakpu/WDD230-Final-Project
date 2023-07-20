@@ -1826,4 +1826,12 @@ button:hover, a:hover {
     border: 2px solid #1d2b36;
   
     }
+
+    #nav ul li {
+      
+      display: flex;
+      flex-direction: column;
+      border-bottom: 1px solid white;
+      width: 400px;
+          }
 }
