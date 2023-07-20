@@ -116,11 +116,9 @@
             text-align: left;
         }
 
-}
-
-/* Weather */
+        /* Weather */
 .contentbox.weather {
-    width: 95%;
+    width: 50%;
     background-color: transparent;
     border: none;
     display: flex;
@@ -138,6 +136,7 @@
 
 .contentbox.forecast.table{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     border: none;
     
@@ -160,6 +159,9 @@ td {
     font-size: 0.8rem;
     text-align: center;
 }
+
+}
+
 
 
 
