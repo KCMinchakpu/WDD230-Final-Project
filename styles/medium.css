@@ -98,21 +98,7 @@
             display: block;
         }
 
-    /* Box */
-
-        .box.highlight {
-            padding-left: calc(4em + 30px);
-        }
-
-        .box.post .inner {
-            margin-left: calc(30% + 20px);
-        }
-
-        .box.post .image {
-            width: 30%;
-        }
-
-    /* Banner */
+        /* Banner */
 
         #banner {
             height: 20em;
@@ -122,18 +108,7 @@
                 padding: 20px;
             }
 
-    /* Wrapper */
-
-        .wrapper {
-            padding: 2em 20px 1px 20px;
-        }
-
-    /* CTA */
-
-        #cta {
-            padding: 20px;
-        }
-
+    
     /* Footer */
 
         #footer {
@@ -165,6 +140,7 @@
     display: flex;
     justify-content: center;
     border: none;
+    
 }
 
 .col-head,th {
