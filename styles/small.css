@@ -605,7 +605,7 @@ ul.menu li:first-child {
   .about-para2 {
     text-align: justify;
     margin-left: 50px;
-    margin-right: 3500px;
+    margin-right: 350px;
   }
 
   .headline {
@@ -1067,7 +1067,7 @@ margin-bottom:3rem!important
   margin-left:auto;
 }
 
-@media (min-width:576px){
+@media (min-width:480px){
   .featured-container {
     max-width:100%;
     display: flex;
@@ -1197,10 +1197,22 @@ p:last-child {
   margin-top: 150px;
 }
 
-@media only screen and (max-width: 767.96px) {
+@media only screen and (max-width: 480px) {
   .bature {
     margin-top: 100px;
+    
   }
+ 
+  .section-title p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.8;
+  }
+  
+  
 }
 
 .section-title h3 {
@@ -1257,7 +1269,7 @@ p:last-child {
   padding: 0 8px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 480px) {
   .team-column {
     width: 100%;
     display: block;
@@ -1612,4 +1624,79 @@ button:hover, a:hover {
         margin-bottom: 20px;
         margin-left: 50px;
     }
-     }
+
+    .about-article {
+      width:80%;
+      padding:22px;
+      background:#efefef;
+      border-radius:5px;
+      }
+  
+    .about-article2 {
+      width:80%;
+      padding:22px;
+      background:#efefef;
+      border-radius:5px;
+    }
+  
+    .image-right {
+      background:silver;
+      width:340px;
+      height:400px;
+      border-radius:5px;
+      color:#efefef;
+      margin: auto;
+    } 
+      
+    .image-left {
+      background:silver;
+      width:340px;
+      height:400px;
+      border-radius:5px;
+      color:#efefef;
+      margin: auto;
+    }
+
+    .about-para {
+      text-align: justify;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .about-para2 {
+      text-align: justify;
+      margin-left: 10px;
+      margin-right: 250px;
+    }
+
+    .headline {
+      text-align: center;
+      font-size: 28px;
+      color: #644503;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      margin-bottom: 20px;
+      margin-top: 100px;
+    }
+  
+    .google-map {
+      padding-bottom: 50%;
+      position: relative;
+      margin-top: 50px;
+  }
+  
+  .google-map iframe {
+      height: 100%;
+      width: 100%;
+      left: 10px;
+      top: 0;
+      position: absolute;
+  }
+
+  .team-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  }
