@@ -1368,18 +1368,7 @@ button:hover, a:hover {
       padding: 20px;
     }
     
-    /* Wrapper */
-    
-    .wrapper {
-    padding: 2em 20px 1px 20px;
-          }
-    
-    /* CTA */
-    
-    #cta {
-    padding: 20px;
-    }
-    
+            
     /* Footer */
     
     #footer {
@@ -1436,13 +1425,7 @@ button:hover, a:hover {
 				height: 20em;
 			}
 
-		/* Wrapper */
-
-			.wrapper {
-				padding: 3em 0 1em 0;
-			}
-
-			/* Footer */
+					/* Footer */
 
 			#footer {
 				padding: 3em 0 3em 0;
@@ -1474,8 +1457,6 @@ button:hover, a:hover {
 	}
 
 	@media screen and (max-width: 840px) {
-
-		
 
 			html, body {
 				overflow-x: hidden;
